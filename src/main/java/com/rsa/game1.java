@@ -17,7 +17,7 @@ public class game1 {
             a = in.nextInt();
             count = count + 1;
             if(a>max|a<min){
-                System.out.println("输入数字超限");
+                System.out.println("请输入区间"+min+"到"+max+"的数字");
 
             }else{
                 if (a > number) {
